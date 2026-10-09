@@ -1,0 +1,27 @@
+---
+// Navbar.astro
+---
+
+<header class="bg-white border-b border-gray-200 sticky top-0 z-50">
+    <nav class="container mx-auto px-4 h-16 flex items-center justify-between">
+        <!-- Store Brand / Logo -->
+        <a href="/" class="text-xl font-bold text-gray-900 tracking-tight hover:text-blue-600 transition">
+            Mom's Shop
+        </a>
+
+        <!-- Navigation Links -->
+        <div class="flex items-center space-x-6 text-sm font-medium text-gray-600">
+            <a href="/" class="hover:text-blue-600 transition">Home</a>
+            <a href="/shop" class="hover:text-blue-600 transition">Catalog</a>
+            <a href="/about" class="hover:text-blue-600 transition">Our Story</a>
+            <a href="/contact" class="hover:text-blue-600 transition">Contact</a>
+        </div>
+
+        <!-- Optional Action/Cart Link -->
+        <div>
+            <a href="/cart" class="inline-flex items-center bg-gray-900 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-gray-800 transition">
+                Cart (0)
+            </a>
+        </div>
+    </nav>
+</header>

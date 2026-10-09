@@ -1,0 +1,30 @@
+---
+import Welcome from '../components/Welcome.astro';
+import Layout from '../layouts/Layout.astro';
+
+// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
+// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+---
+
+<Layout>
+    <main class="container mx-auto px-4 py-8">
+        <!-- Header / Hero section -->
+        <header class="text-center my-12">
+            <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Mom's Handcrafted Shop</h1>
+            <p class="mt-4 text-lg text-gray-600">Discover unique, handmade goods crafted with care.</p>
+        </header>
+
+        <!-- Product Grid Placeholder -->
+        <section class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <!-- Example Product Card Placeholder -->
+            <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+                <div class="h-48 bg-gray-200 flex items-center justify-center text-gray-400">Product Image</div>
+                <div class="p-4">
+                    <h2 class="text-xl font-semibold text-gray-800">Sample Product</h2>
+                    <p class="text-gray-600 mt-1">$25.00</p>
+                    <button class="mt-4 w-full bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition">View Details</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</Layout>
